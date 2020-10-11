@@ -170,7 +170,12 @@ h2 {
 article h3 {
 	font-family: Proxima;
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+span{
+	text-transform: none;
 }
 
 .article-left {
