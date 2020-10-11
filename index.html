@@ -134,6 +134,41 @@
 	      		<input type="text" id="search" placeholder="Keywords">
 	      	</div>
 	      	<div class="calendar-widget">
+
+				<div class="calendar" id="calendar">
+					<div class="calendar-btn month-btn" onclick="$('#months').toggle('fast')">
+						<span id="curMonth"></span>
+						<div id="months" class="months dropdown"></div>
+					</div>
+				
+					<div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
+						<span id="curYear"></span>
+						<div id="years" class="years dropdown"></div>
+					</div>
+				
+					<div class="clear"></div>
+				
+					<div class="calendar-dates">
+						<div class="days">
+							<div class="day label">S</div>
+							<div class="day label">M</div>
+							<div class="day label">T</div>
+							<div class="day label">W</div>
+							<div class="day label">T</div>
+							<div class="day label">F</div>
+							<div class="day label">S</div>
+				
+							<div class="clear"></div>
+						</div>
+				
+						<div id="calendarDays" class="days">
+						</div>
+					</div>
+				</div>
+
+
+
+				<!---
 	      		<div class="calendar-top">
 	      			<div class="calendar-prev"><i class="fas fa-chevron-left"></i></div>
 	      			<div class="calendar-month">June 2020</div>
@@ -197,7 +232,7 @@
 	      				</tr>
 	      			</table>
 	      			
-	      		</div>
+	      		</div> -->
 	      	</div>
 	      	<div class="popular-news">
 	      		<h2>Popular</h2>
@@ -247,5 +282,8 @@
 			<a href="#" class="gp"><i class="fab fa-google-plus-g"></i></a>
 		</div>
 	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+	<script src="js/script.js"></script>
 </body>
 </html>
