@@ -277,7 +277,7 @@ span{
 	border-radius: 5px;
 	outline: none;
 	text-align: center;
-	margin: 0 auto;
+	margin-left: 30%;
 	display: block;
 }
 
@@ -511,7 +511,7 @@ aside.right-sidebar {
 	font-family: Proxima;
 	font-weight: 300;
 	font-size: 13px;
-	color: #a78613;
+	color: #E78100;
 }
 
 .social {
