@@ -100,7 +100,7 @@ body {
 /* ============================================= */
 
 .page-header, .page-footer {
-	height: 67px;
+	height: 75px;
 	width: 100%;
 	background-color: #000;
 	
@@ -148,6 +148,11 @@ main {
 
 img {
 	width: 100%;
+	height: 12em;
+}
+
+#top-article{
+	margin-top: 10%;
 }
 
 article {
