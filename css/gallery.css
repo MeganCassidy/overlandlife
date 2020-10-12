@@ -131,12 +131,13 @@ nav ul {
 
 /* Main Section Styles */ 
 .carousel{
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .carousel-inner{
     height: 400px;
     object-position: center;
+    border-radius: 10px;
 }
 
 
@@ -157,10 +158,9 @@ main {
 }
 
 .card{
-    
     display: inline-flex;
     flex-wrap: wrap;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
 }
 
 

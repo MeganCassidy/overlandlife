@@ -352,6 +352,7 @@ aside.right-sidebar {
 	text-align: left;
 }
 
+
 .calendar .dropdown .dropdown-item
 {
     cursor:pointer;
@@ -381,7 +382,7 @@ aside.right-sidebar {
     background-color: #E78100;
     color: white;
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
@@ -394,12 +395,12 @@ aside.right-sidebar {
 }
 
 .calendar .calendar-btn:hover{
-    background-color:#E78100;
+    background-color:#ff9306;
 }
 
 .calendar .year-btn
 {
-    float:right;
+	float:right;
 }
 
 
