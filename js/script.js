@@ -1,3 +1,4 @@
+// Scripts for calendar on homepage
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 var startYear = 2010;
 var endYear = 2025;
@@ -137,6 +138,8 @@ function loadCalendarDays() {
     clear.className = "clear";
     document.getElementById("calendarDays").appendChild(clear);
 }
+
+// End of scripts for Calendar - homepage 
 
 
 
