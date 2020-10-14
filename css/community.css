@@ -167,7 +167,7 @@ p{
     margin-top: 0.5em;
 }
 
-p:hover{
+.discussion p:hover{
     color: #E78100;
     cursor: pointer;
 }
@@ -210,12 +210,16 @@ label{
     margin-top: 5em;
 }
 
+.about-body{
+    padding-bottom: 6em;
+}
+
 .about-logo{
     width: 70%;
 }
 
 .about-title{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 2em;
 }
 
