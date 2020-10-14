@@ -156,7 +156,6 @@ main {
 
 .card-title{
     font-size: 22px;
-    text-decoration: underline;
 }
 .card-title:hover{
     color: #E78100;
@@ -165,6 +164,8 @@ main {
 
 p{
     margin-top: 0.5em;
+    font-family: Proxima;
+	font-weight: 300;
 }
 
 .discussion p:hover{

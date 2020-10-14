@@ -163,6 +163,10 @@ main {
     margin-bottom: 1.5em;
 }
 
+.card>img{
+	max-height: 255px;
+}
+
 
 /* Footer */
 
