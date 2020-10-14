@@ -132,12 +132,96 @@ nav ul {
 
 /* Main section styles */ 
 
+.main>.wrapper {
+	display: flex;
+}
+
+main {
+	width: 75%;
+}
+
+.right-sidebar {
+	width: 25%;
+}
+
+.community-title{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+#top-card{
+    margin-top: 5%;
+}
+
+.card-title{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.card-title:hover{
+    color: #E78100;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 0.5em;
+}
+
+p:hover{
+    color: #E78100;
+    cursor: pointer;
+}
+
+.more{
+    color: #E78100;
+    font-size: 14px;
+}
+
+.text-muted{
+    font-size: 12px;
+}
 
 
+/*Aside styles*/
+/*Login styles*/
+#login-form{
+    margin-top: 7em;
+    width: 80%;
+    margin-left: 2em;
+}
+#login-btn{
+    background: #E78100;
+    color: #fff;
+}
 
+.login-title{
+    margin-bottom: 2em;
+    font-size: 20px;
+}
 
+label{
+    margin-bottom: 0.7em;
+}
 
+/*About section*/
+#about-card{
+    width: 80%;
+    margin-left: 2em;
+    margin-top: 5em;
+}
 
+.about-logo{
+    width: 70%;
+}
+
+.about-title{
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+#here{
+    color: #E78100;
+}
 
 /* Footer Styles */
 
