@@ -14,7 +14,7 @@ img {
 }
 
 .card-img-top{
-	height: 14em !important;
+	height: 14em;
 }
 
 #top-article {
@@ -172,3 +172,53 @@ article h3:hover{
 h4{
 	font-size: 22px;
 }
+
+.card-one{
+	display: flex;
+}
+
+li{
+	line-height: 28px;
+}
+
+.right-list{
+	margin-left: 6em;
+}
+
+.sect{
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.sect img{
+	width: 80%;
+	cursor: pointer;
+}
+
+.sect img:hover{
+	opacity: 0.5;
+}
+
+.sect h4:hover{
+	color: #000;
+}
+
+.sect h4{
+	align-self: center;
+	color: #999;
+	cursor: pointer;
+}
+
+.second,
+.fourth {
+	margin-left: 2em;
+}
+
+.top-imgs{
+	display: flex;
+}
+
+.bottom-imgs{
+	display: flex;
+}
+

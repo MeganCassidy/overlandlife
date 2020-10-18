@@ -38,4 +38,8 @@ main {
 	max-height: 255px;
 }
 
+img{
+    border-radius: 10px;
+}
+
 
