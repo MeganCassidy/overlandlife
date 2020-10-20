@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo4.png" type="image/x-icon">
+	<title>Events</title>
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/share.css">
+	<link rel="stylesheet" type="text/css" href="css/events.css">
+</head>
+<body>
+
+<!-- ============================================ --> 
+<!--PAGE HEADER -->	
+	<header class="page-header">
+		<div class="wrapper">
+			<nav class="left-nav">
+			   <ul>
+				   <li><a href="#">Cars</a></li>
+                   <li><a href="#" class="page">Events</a></li>
+				   <li><a href="camping.html">Camping</a></li>
+			   </ul>
+		    </nav>
+		    <div class="header-logo">
+                <a href="index.html">
+               <img src="images/logo4.png" alt="Logo">
+                </a>
+		    </div>
+		    <nav class="right-nav">
+			   <ul>
+				   <li><a href="food.html">Food</a></li>
+				   <li><a href="community.html">Community</a></li>
+				   <li><a href="gallery.html">Gallery</a></li>
+			   </ul>
+		    </nav>
+		</div>
+	</header>
+<!-- ============================================ -->
+<!--MAIN PAGE-->
+
+    <div class="main">
+        <div class="wrapper">
+    	   <main>
+
+            <h2 class="heading">Events with Overland Life</h2>
+            <p class="sub-head">Upcoming Events</p>
+            <!-- one -->
+            
+                <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/camping/site2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Annual Scotland Trip</h5>
+                      <h5>29 January 2021</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                <p>Location: Scotland</p>
+                                <p>Duration: 3 Nights</p>
+                                <p>Terraine: Easy / Scenic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                      
+                      
+                    </div>
+                </div>
+                   
+                  
+                  <!-- Two -->
+                <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/blue-car.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dellamere Run</h5>
+                      <h5>29 January 2021</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                      
+                      
+                    </div>
+                </div>
+                
+    
+                  <!-- Three -->
+                  <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/camping/site1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">South-West Meet Up</h5>
+                      <h5>29 January 2021</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+
+                <button>View More</button>
+                <!-- Calendar -->
+                <div class="calendar-img">
+                    <div class="calendar-widget">
+
+                        <div class="calendar" id="calendar">
+                            <div class="calendar-btn month-btn" onclick="$('#months').toggle('fast')">
+                                <span id="curMonth"></span>
+                                <div id="months" class="months dropdown"></div>
+                            </div>
+                        
+                            <div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
+                                <span id="curYear"></span>
+                                <div id="years" class="years dropdown"></div>
+                            </div>
+                        
+                            <div class="clear"></div>
+                        
+                            <div class="calendar-dates">
+                                <div class="days">
+                                    <div class="day label">S</div>
+                                    <div class="day label">M</div>
+                                    <div class="day label">T</div>
+                                    <div class="day label">W</div>
+                                    <div class="day label">T</div>
+                                    <div class="day label">F</div>
+                                    <div class="day label">S</div>
+                        
+                                    <div class="clear"></div>
+                                </div>
+                        
+                                <div id="calendarDays" class="days">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Past Events -->
+
+                <p class="sub-head">Previous Events</p>
+            <!-- Four -->
+            
+                <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/camping/site2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Wales Weekend</h5>
+                      <h5>8 May 2020</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                <p>Location: Scotland</p>
+                                <p>Duration: 3 Nights</p>
+                                <p>Terraine: Easy / Scenic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                      
+                      
+                    </div>
+                </div>
+                   
+                  
+                  <!-- Five -->
+                <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/blue-car.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">A Day in the Yorkshire Dales</h5>
+                      <h5>22 August 2020</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                      
+                      
+                    </div>
+                </div>
+                   
+    
+                  <!-- Six -->
+                  <div class="card event-card" style="width: 18rem;">
+                    <img src="Images/camping/site1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cotswolds Quarterly</h5>
+                      <h5>26 September 2020</h5> <br> <br>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                View Details
+                                </button>
+                                </h2>
+                            </div>
+                      
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+
+                        <!-- image banner -->
+                    <div class="card" id="top-card" style="width: 24rem;">
+                        <img src="Images/camping/campfire.jpg" class="card-img-top" alt="...">
+                    </div>
+                
+                    <div class="card" style="width: 24rem;">
+                        <img src="Images/camping/small-stove2.jpg" class="card-img-top" alt="...">
+                    </div>
+                
+                    <div class="card" style="width: 24rem;">
+                        <img src="Images/camping/red-jeep.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                <!-- End of img banner -->
+                
+            </main>
+        </div>
+    </div>
+    
+    
+    <!-- ============================================ -->
+<!--PAGE FOOTER-->
+
+	<footer class="page-footer">
+		<div class="wrapper">
+			<div class="copy">
+			   <p>© 2020 Overland Life. All rights reserved</p>
+		</div>
+		<nav class="footer-nav">
+			<ul>
+				<li><a href="#">About Blog</a></li>
+				<li><a href="#">Need Help?</a></li>
+				<li><a href="#">Content Guide</a></li>
+			</ul>
+		</nav>
+		<div class="social">
+			<a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="tw"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="gp"><i class="fab fa-google-plus-g"></i></a>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+	<script src="js/script.js"></script>
+</body>
+</html>
+
