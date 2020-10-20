@@ -181,6 +181,10 @@ li{
 	line-height: 28px;
 }
 
+li:hover{
+	color: #999;
+}
+
 .right-list{
 	margin-left: 6em;
 }
@@ -220,5 +224,9 @@ li{
 
 .bottom-imgs{
 	display: flex;
+}
+
+p{
+	line-height: 26px;
 }
 
