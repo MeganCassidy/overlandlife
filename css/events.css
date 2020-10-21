@@ -21,6 +21,11 @@ img {
 
 .card-body{
     text-align: center;
+    line-height: 24px;
+}
+
+.card-body>button{
+    margin-top: 1em;
 }
 
 .mb-0{
@@ -32,13 +37,20 @@ img {
     margin-top: 2em;
 }
 
+.details{
+    color: black;
+}
+
+.btn:hover{
+	text-decoration: none;
+}
 
 
 .event-card{
-    display: inline-flex;
-    border: 1px solid #000;
+    display: inline-flex; 
     margin-top: 2em;
     margin-left: 4.5em;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
 }
 
 h2{
@@ -50,9 +62,37 @@ h2{
     margin-top: 2em;
 }
 
+#upcoming{
+    margin-top: 2em;
+}
+
 .sub-head{
     margin-left: 4em;
     font-size: 20px;
+    color: #999;
+}
+
+#viewMoreBtn{
+    margin-bottom: 5%;
+    margin-top: 2em;
+    margin-left: 6em;
+    width: 170px;
+    height: 42px;
+    background: transparent;
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    border: 1px solid #E78100;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    display: block;
+    box-shadow: 0px 5px 7px rgba(0,0,0,0.3);
+}
+
+#previous{
+    margin-top: 5%;
 }
 
 
@@ -66,12 +106,12 @@ h2{
 }
 
 .calendar-widget {
-	border: 1px solid #e5e5e5;
+	border: 1px solid #e5e5e500;
 	width: 100%;
 	border-radius: 10px;
-    margin-top: 38px;
     width: 40%;
     margin-left: 5%;
+    
 }
 
 .calendar
@@ -80,8 +120,7 @@ h2{
     padding: 15px 5px;
 	box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
     border-radius: 10px;
-    margin-top: 2em;
-    
+    margin-top: 10%;
 }
 
 .calendar .dropdown

@@ -45,7 +45,7 @@
     	   <main>
 
             <h2 class="heading">Events with Overland Life</h2>
-            <p class="sub-head">Upcoming Events</p>
+            <p class="sub-head" id="upcoming">Upcoming Events</p>
             <!-- one -->
             
                 <div class="card event-card" style="width: 18rem;">
@@ -58,7 +58,7 @@
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
@@ -67,7 +67,9 @@
                                 <div class="card-body">
                                 <p>Location: Scotland</p>
                                 <p>Duration: 3 Nights</p>
-                                <p>Terraine: Easy / Scenic</p>
+                                <p>Terrain: Easy / Scenic</p>
+                                <p>Organised By: Ben Smith</p>
+                                <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -82,21 +84,25 @@
                 <div class="card event-card" style="width: 18rem;">
                     <img src="Images/blue-car.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Dellamere Run</h5>
-                      <h5>29 January 2021</h5> <br> <br>
+                      <h5 class="card-title">Delamere Run</h5>
+                      <h5>6 February 2021</h5> <br> <br>
                       <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
                       
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                    <p>Location: Delamere</p>
+                                    <p>Duration: 1 Day</p>
+                                    <p>Terrain: Medium / Technical</p>
+                                    <p>Organised By: Joe Long</p>
+                                    <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -112,20 +118,24 @@
                     <img src="Images/camping/site1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">South-West Meet Up</h5>
-                      <h5>29 January 2021</h5> <br> <br>
+                      <h5>20 February 2021</h5> <br> <br>
                       <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
                       
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                    <p>Location: Newquay</p>
+                                    <p>Duration: 2 Nights</p>
+                                    <p>Terrain: Easy / Scenic</p>
+                                    <p>Organised By: Lisa Wright</p>
+                                    <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +143,7 @@
                     </div>
                 </div>
 
-                <button>View More</button>
+                <button id="viewMoreBtn">View More</button>
                 <!-- Calendar -->
                 <div class="calendar-img">
                     <div class="calendar-widget">
@@ -173,11 +183,11 @@
 
                 <!-- Past Events -->
 
-                <p class="sub-head">Previous Events</p>
+                <p class="sub-head" id="previous">Previous Events</p>
             <!-- Four -->
             
                 <div class="card event-card" style="width: 18rem;">
-                    <img src="Images/camping/site2.jpg" class="card-img-top" alt="...">
+                    <img src="Images/camping/wales.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Wales Weekend</h5>
                       <h5>8 May 2020</h5> <br> <br>
@@ -186,16 +196,18 @@
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
                       
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
-                                <p>Location: Scotland</p>
+                                <p>Location: Snowden</p>
                                 <p>Duration: 3 Nights</p>
-                                <p>Terraine: Easy / Scenic</p>
+                                <p>Terrain: Difficult / Technical</p>
+                                <p>Organised By: Kyle Wick</p>
+                                <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +220,7 @@
                   
                   <!-- Five -->
                 <div class="card event-card" style="width: 18rem;">
-                    <img src="Images/blue-car.jpg" class="card-img-top" alt="...">
+                    <img src="Images/camping/dales.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">A Day in the Yorkshire Dales</h5>
                       <h5>22 August 2020</h5> <br> <br>
@@ -217,14 +229,18 @@
                             <div class="card-header" id="headingFive">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
                       
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                    <p>Location: Hawes</p>
+                                    <p>Duration: 1 Day</p>
+                                    <p>Terrain: Medium / Technical</p>
+                                    <p>Organised By: Jake Brown</p>
+                                    <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +253,7 @@
     
                   <!-- Six -->
                   <div class="card event-card" style="width: 18rem;">
-                    <img src="Images/camping/site1.jpg" class="card-img-top" alt="...">
+                    <img src="Images/camping/cotswold.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cotswolds Quarterly</h5>
                       <h5>26 September 2020</h5> <br> <br>
@@ -246,14 +262,18 @@
                             <div class="card-header" id="headingSix">
                                 <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                View Details
+                                    <h4 class="details">View Details</h4>
                                 </button>
                                 </h2>
                             </div>
                       
                             <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                 <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim es andsustainable VHS.
+                                    <p>Location: Chedworth</p>
+                                    <p>Duration: 2 Nights</p>
+                                    <p>Terrain: Easy / Scenic</p>
+                                    <p>Organised By: Lisa Wright</p>
+                                    <button>Im interested</button>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +283,7 @@
 
                         <!-- image banner -->
                     <div class="card" id="top-card" style="width: 24rem;">
-                        <img src="Images/camping/campfire.jpg" class="card-img-top" alt="...">
+                        <img src="Images/camping/forrest.jpg" class="card-img-top" alt="...">
                     </div>
                 
                     <div class="card" style="width: 24rem;">
