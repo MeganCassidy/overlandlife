@@ -26,7 +26,7 @@ img {
 
 article {
 	display: flex;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 h2 {
@@ -160,6 +160,7 @@ aside.right-sidebar {
 }
 
 .search-box{
+	margin-top: 3em;
 	width: 100%;
 	position: relative;
 }
@@ -365,4 +366,20 @@ aside.right-sidebar {
 	height: 1px;
 	border-top: 1px solid #e5e5e5;
 	margin-left: 20px;
+}
+
+/*Login styles */ 
+
+#login-btn{
+    background: #E78100;
+    color: #fff;
+}
+
+.login-title{
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+label{
+    margin-bottom: 0.7em;
 }
