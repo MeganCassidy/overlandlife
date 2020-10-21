@@ -141,7 +141,11 @@ function loadCalendarDays() {
 
 // End of scripts for Calendar - homepage 
 
-
+document.querySelectorAll('.interested').forEach(item => {
+    item.addEventListener('click', event => {
+        alert("Thank you. Your details have been passed to the event organiser.");
+    })
+ })
 
 
 
